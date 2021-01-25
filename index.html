@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Our website description">
+    <meta name="keywords" content="html, css, flex, form">
+    <meta name="author" content="kristina">
+    <meta name="google" content="notranslate" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">  
+</head>
+<body>
+    <section>
+        <form class="form-box">
+            <div class="form-wraper">
+                <label for="fname"> First Name</label>
+                <input class="input-wraper" type="text" id="fname" name="firtsname" placeholder="Please enter your Name.." required>
+            </div>
+            <div class="form-wraper">
+                <label for="lname"> Last Name</label>
+                <input  class="input-wraper" type="text" id="lname" name="lastname" placeholder="Please enter your lastname..." required>
+            </div>
+            <div class="form-wraper">
+                <label for="passw"> Password</label>
+                <input  class="input-wraper" type="password" id="passw" name="mypassword" placeholder="Please enter your password..." required> 
+            </div>
+            <div class="form-wraper">
+                <label> Your Review </label>
+                <textarea class="textarea-wraper" placeholder="Please enter your review...">  </textarea>
+            </div>
+            <div>
+                <div>
+                    <input type="radio" id="male" name="gender">
+                    <label> Male </label>
+                </div>
+                <div>
+                    <input type="radio" id="female" name="gender">
+                    <label> Female </label>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <input type="checkbox" id="music-hobby" name="music">
+                    <label> Music</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="dance-hobby" name="dance">
+                    <label> Dance </label>
+                </div>
+            </div>
+            <button class="button" type="submit"> Send </button>
+        </form>
+    </section>
+
+
+    
+</body>
+</html>
